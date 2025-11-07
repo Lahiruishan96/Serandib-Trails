@@ -70,7 +70,7 @@ export const trips: Trip[] = [
     days: 3,
     categories: ["Adventure", "Wildlife", "Hill Side"],
     image:
-      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=800&q=80",
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/d6/2a/ab.jpg",
     description: `
   Embark on a thrilling 3-day, 2-night journey from Bentota through Sri Lanka’s southern wonders — from serene rivers and coastal gems to wild safaris and breathtaking mountain landscapes.
 

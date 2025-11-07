@@ -93,7 +93,7 @@ const CustomerReviews: React.FC = () => {
                                         fill
                                         className="object-cover object-top"
                                     />
-                                    <div className="absolute inset-0 bg-blue-700 opacity-0 group-hover:opacity-10 transition duration-300"></div>
+                                    <div className="absolute inset-0 bg-teal-600 opacity-0 group-hover:opacity-10 transition duration-300"></div>
                                 </div>
                             </div>
                         ))}
