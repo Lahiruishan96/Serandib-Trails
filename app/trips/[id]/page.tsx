@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getTripById } from "../../../data/trips";
+import { getTripById } from "../trips";
 import ReactMarkdown from "react-markdown";
 
 export default async function TripDetailPage({ params }: { params: Promise<{ id: string }> }) {

@@ -165,7 +165,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { trips } from "@/data/trips"; // ✅ Ensure correct path
+import { trips } from "@/app/trips/trips"; // ✅ Ensure correct path
 
 const durationOptions = [3, 5, 7, 14, 21];
 const categoryOptions = [
@@ -202,7 +202,7 @@ const FeaturedTrips: React.FC = () => {
         </div>
 
         {/* 🔹 Filter Section */}
-        <div className="p-8 mb-12 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl shadow-md">
+        <div className="p-8 mb-12 bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl shadow-md">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             {/* Left Title */}
             <div>
