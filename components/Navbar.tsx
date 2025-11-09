@@ -1,35 +1,33 @@
 "use client";
 
-import React, { useState } from 'react';
-import { Menu, X, Home, Info, MessageSquareQuote, PlaneTakeoff, List, Hotel, FileText } from 'lucide-react';
-
-// ✅ Reusable Link Component (Mock for standalone React)
-// Replace with: `import Link from 'next/link'` if using Next.js
-interface LinkProps {
-  href: string;
-  children: React.ReactNode;
-  className?: string;
-  onClick?: () => void;
-}
-
-const Link: React.FC<LinkProps> = ({ href, children, className = '', onClick }) => (
-  <a href={href} className={className} onClick={onClick}>
-    {children}
-  </a>
-);
+import React, { useState } from "react";
+import { usePathname } from "next/navigation"; // ✅ Hook for current path
+import Link from "next/link"; // ✅ Use Next.js Link
+import {
+  Menu,
+  X,
+  Home,
+  Info,
+  MessageSquareQuote,
+  PlaneTakeoff,
+  List,
+  Hotel,
+  FileText,
+} from "lucide-react";
 
 // ✅ Navigation Links
 const navLinks = [
-  { name: 'Home', href: '/', icon: Home },
-  { name: 'Our Packages', href: '/packages', icon: List },
-  { name: 'About Us', href: '/about', icon: Info },
-  { name: 'Hotels', href: '/hotels', icon: Hotel },
-  { name: 'Contact Us', href: '/contact', icon: MessageSquareQuote },
-  { name: 'T&C', href: '/t&c', icon: FileText },
+  { name: "Home", href: "/", icon: Home },
+  { name: "Our Packages", href: "/packages", icon: List },
+  { name: "About Us", href: "/about", icon: Info },
+  { name: "Hotels", href: "/hotels", icon: Hotel },
+  { name: "Contact Us", href: "/contact", icon: MessageSquareQuote },
+  { name: "T&C", href: "/t&c", icon: FileText },
 ];
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // ✅ Get current route
 
   const closeMenu = () => setIsOpen(false);
 
@@ -48,16 +46,23 @@ const Navbar: React.FC = () => {
           {/* ✅ Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <div className="space-x-8 text-gray-700 font-semibold">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent hover:border-teal-600 hover:text-teal-600 transition duration-150 ease-in-out"
-                >
-                  <link.icon className="h-5 w-5 mr-1" />
-                  {link.name}
-                </Link>
-              ))}
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href; // ✅ Check if active
+                return (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className={`inline-flex items-center px-1 pt-1 border-b-2 transition duration-150 ease-in-out ${
+                      isActive
+                        ? "border-teal-600 text-teal-600"
+                        : "border-transparent hover:border-teal-600 hover:text-teal-600 text-gray-700"
+                    }`}
+                  >
+                    <link.icon className="h-5 w-5 mr-1" />
+                    {link.name}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* ✅ CTA Button */}
@@ -85,22 +90,28 @@ const Navbar: React.FC = () => {
       {/* ✅ Mobile Dropdown Menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
+          isOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 border-t border-gray-200">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              href={link.href}
-              onClick={closeMenu}
-              className="flex items-center px-3 py-2 rounded-md text-base font-medium text-gray-800 
-                         hover:bg-teal-50 hover:text-teal-600 transition duration-150"
-            >
-              <link.icon className="h-5 w-5 mr-3" />
-              {link.name}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href; // ✅ Active state for mobile too
+            return (
+              <Link
+                key={link.name}
+                href={link.href}
+                onClick={closeMenu}
+                className={`flex items-center px-3 py-2 rounded-md text-base font-medium transition duration-150 ${
+                  isActive
+                    ? "bg-teal-50 text-teal-700 font-semibold"
+                    : "text-gray-800 hover:bg-teal-50 hover:text-teal-600"
+                }`}
+              >
+                <link.icon className="h-5 w-5 mr-3" />
+                {link.name}
+              </Link>
+            );
+          })}
 
           {/* ✅ Mobile CTA */}
           <Link
