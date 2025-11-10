@@ -23,7 +23,7 @@ const ContactPage = () => {
           {/* Left Column: Optimized Image */}
           <div className="lg:col-span-2 relative rounded-3xl overflow-hidden shadow-2xl h-[500px]">
             <Image
-              src="/images/about.jpg" // 🔹 Replace this with your actual image in /public/images/
+              src="/Images/about.jpg" // 🔹 Replace this with your actual image in /public/images/
               alt="Travel journey illustration"
               fill
               priority
