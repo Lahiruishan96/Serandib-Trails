@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           
           {/* 1. Brand & Description */}
           <div className="col-span-2 md:col-span-2">
-            <h3 className="text-3xl font-bold text-blue-400 mb-4">
+            <h3 className="text-3xl font-bold text-teal-500 mb-4">
               Soul Of Lanka
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed pr-8">
@@ -46,22 +46,22 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <nav className="space-y-3 text-sm">
               <Link href="/" className="block hover:text-blue-400 transition duration-300">Home</Link>
-              <Link href="/trips" className="block hover:text-blue-400 transition duration-300">Our Featured Trips</Link>
+              <Link href="/packages" className="block hover:text-blue-400 transition duration-300">Our Packages</Link>
               <Link href="/about" className="block hover:text-blue-400 transition duration-300">About Us</Link>
-              <Link href="/blog" className="block hover:text-blue-400 transition duration-300">Our Plans</Link>
               <Link href="/contact" className="block hover:text-blue-400 transition duration-300">Contact</Link>
+              <Link href="/t&c" className="block hover:text-blue-400 transition duration-300">Terms and Conditions</Link>
             </nav>
           </div>
 
           {/* 3. Trip Categories (Dynamically relevant to your app) */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Popular Themes</h4>
-            <nav className="space-y-3 text-sm">
-              <Link href="/category/adventure" className="block hover:text-blue-400 transition duration-300">Adventure & Safari</Link>
-              <Link href="/category/historical" className="block hover:text-blue-400 transition duration-300">Historical Tours</Link>
-              <Link href="/category/beach" className="block hover:text-blue-400 transition duration-300">Beach Getaways</Link>
-              <Link href="/category/hillside" className="block hover:text-blue-400 transition duration-300">Hill Country</Link>
-              <Link href="/category/relaxation" className="block hover:text-blue-400 transition duration-300">Relaxation</Link>
+            <h4 className="text-lg font-semibold text-white mb-4">Popular Trips</h4>
+            <nav className="space-y-3 text-sm text-white-700">
+              <div>Adventure & Safari</div>
+              <div>Historical Tours</div>
+              <div>Beach Getaways</div>
+              <div>Hill Country</div>
+              <div>Relaxation</div>
             </nav>
           </div>
 
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
             <address className="space-y-3 text-sm not-italic">
               <p className="flex items-center">
                 <FaPhone className="mr-2 text-blue-400" />
-                +94 11 234 5678
+                +94 77 130 3233
               </p>
               <p className="flex items-center">
                 <AiOutlineWechat className="mr-2 text-blue-400" />
@@ -92,10 +92,6 @@ const Footer: React.FC = () => {
           <p className="mb-2 md:mb-0">
             &copy; {new Date().getFullYear()} Soul Of Lanka. All rights reserved.
           </p>
-          <div className="space-x-4">
-            <Link href="/privacy" className="hover:text-white transition duration-300">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition duration-300">Terms of Service</Link>
-          </div>
         </div>
       </div>
     </footer>

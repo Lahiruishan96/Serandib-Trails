@@ -83,12 +83,20 @@ const ContactPage = () => {
             </div>
 
             {/* Map Placeholder */}
-            <div className="bg-white p-6 rounded-2xl shadow-xl border border-gray-100">
-              <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2">
-                Our Location
+          <div className="bg-white p-6 rounded-2xl shadow-xl border border-gray-100">
+            <h2 className="text-2xl font-bold mb-4 text-gray-800 border-b pb-2">
+              Our Location
               </h2>
-              <div className="h-64 w-full bg-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-sm italic">
-                <p>Map Embed Placeholder (Replace with actual map)</p>
+              <div className="h-64 w-full bg-gray-200 rounded-lg overflow-hidden shadow-sm">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d294.5797730859353!2d79.9563936981753!3d6.5999877099382225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1762778762291!5m2!1sen!2slk"                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}      // ✅ here
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
               </div>
             </div>
           </div>
