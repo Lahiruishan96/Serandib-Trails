@@ -214,20 +214,18 @@ const FeaturedTrips: React.FC = () => {
               </p>
             </div>
 
-            {/* Filters */}
-            <div className="flex flex-wrap gap-5">
+          {/* Filters */}
+            <div className="flex flex-wrap gap-5 justify-center md:justify-start">
               {/* Duration Dropdown */}
               <div className="flex flex-col">
-                <label className="text-sm font-semibold text-teal-600 mb-2">
+                <label className="text-sm font-semibold text-teal-600 mb-2 text-center md:text-left">
                   Trip Duration
                 </label>
                 <div className="relative">
                   <select
                     value={selectedDays ?? ""}
                     onChange={(e) =>
-                      setSelectedDays(
-                        e.target.value ? Number(e.target.value) : null
-                      )
+                      setSelectedDays(e.target.value ? Number(e.target.value) : null)
                     }
                     className="appearance-none border border-gray-300 bg-white text-gray-800 rounded-xl py-3 px-4 pr-10 shadow-sm focus:outline-none text-base transition"
                   >
@@ -260,7 +258,7 @@ const FeaturedTrips: React.FC = () => {
 
               {/* Category Dropdown */}
               <div className="flex flex-col">
-                <label className="text-sm font-semibold text-teal-600 mb-2">
+                <label className="text-sm font-semibold text-teal-600 mb-2 text-center md:text-left">
                   Trip Category
                 </label>
                 <div className="relative">
