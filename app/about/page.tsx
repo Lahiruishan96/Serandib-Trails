@@ -6,9 +6,9 @@ import Image from 'next/image';
 const teamMembers = [
   {
     id: 1,
-    name: "Dewo",
+    name: "M G D S K Gamage",
     title: "Chief Experience Officer",
-    image: "https://images.unsplash.com/photo-1544005313-914a42b87f08?auto=format&fit=crop&w=300&h=300&q=80",
+    image: "/Images/Crew/Gamage.jpg",
   },
   {
     id: 2,
@@ -18,9 +18,9 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "Nirosha Perera",
+    name: "J T R Jayasooriya",
     title: "Head of Operations",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29329?auto=format&fit=crop&w=300&h=300&q=80",
+    image: "/Images/Crew/Jayasooriya.jpg",
   },
   {
     id: 4,
