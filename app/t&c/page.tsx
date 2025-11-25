@@ -75,9 +75,18 @@ const TermsAndConditionsPage: React.FC = () => {
             </ul>
           </section>
           
-          {/* 6. Governing Law */}
+          {/* 6. Traveler Health and Accessibility (New Section) */}
           <section>
-            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Governing Law</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Traveler Health and Accessibility</h2>
+            <ul className="list-disc ml-6 space-y-3">
+              <li>**Special Needs Disclosure:** The client must inform Ceylon Adventures at the time of booking if any person in their party has special needs, medical conditions, or requires supportive items such as a wheelchair, special seating, or medical equipment.</li>
+              <li>This information is essential for us to arrange appropriate accommodations and transportation to ensure comfort and safety throughout the trip. Failure to disclose this information may result in our inability to provide necessary support during the tour.</li>
+            </ul>
+          </section>
+
+          {/* 7. Governing Law (Number updated to 7) */}
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. Governing Law</h2>
             <p>
               These terms and conditions are governed by and construed in accordance with the laws of the Democratic Socialist Republic of Sri Lanka. Any legal action or proceeding related to the services provided shall be brought exclusively in the courts located in Colombo, Sri Lanka.
             </p>
