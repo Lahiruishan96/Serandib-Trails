@@ -5,10 +5,10 @@ import Image from 'next/image';
 
 // PLACEHOLDER DATA (Kept the same)
 const reviewScreenshots = [
-    "/images/Reviews/review1.jpg",
-    "/images/Reviews/review2.jpg",
-    "/images/Reviews/review3.jpg",
-    "/images/Reviews/review4.png",
+    "/Images/Reviews/review1.jpg",
+    "/Images/Reviews/review2.jpg",
+    "/Images/Reviews/review3.jpg",
+    "/Images/Reviews/review4.png",
 ];
 
 // Configuration

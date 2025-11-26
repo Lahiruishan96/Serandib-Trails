@@ -199,8 +199,8 @@ export const trips: Trip[] = [
     title: "Sri Lanka Highlights",
     days: 7,
     categories: ["Cultural", "Adventure", "Nature"],
-    image: "/Images/ella.jpg",
-    backdrop: "/Images/ella.jpg",
+    image: "/Images/Sigiriya Village Tour.jpg",
+    backdrop: "/Images/tea plantation.PNG",
     description: `
 Explore Sri Lanka’s best highlights in 7 unforgettable days — from Colombo’s city vibes to ancient temples, misty hills, wild safaris, and golden beaches.
 
@@ -229,13 +229,27 @@ Beach Relaxation | Water Sports | Return Journey
 City, Wildlife, Culture, Nature, Heritage & Beach Bliss.
     `,
     gallery: [
-      "/Images/ella.jpg",
-      "/Images/ella.jpg",
-      "/Images/ella.jpg",
-      "/Images/ella.jpg",
-      "/Images/ella.jpg",
-      "/Images/ella.jpg",
-      "/Images/ella.jpg"
+      "/Images/Lotus tower.jpg",
+      "/Images/Gangaramaya.webp",
+      "/Images/Galle face.jpg",
+      "/Images/Pinnawala-Elephant-Orphanage-1.jpg",
+      "/Images/Tooth temple.jpg",
+      "/Images/Spice garden.jpg",
+      "/Images/ramboda falls.png",
+      "/Images/tea plantation.PNG",
+      "/Images/gregory lake.png",
+      "/Images/train.png",
+      "/Images/little adams peak.jpg",
+      "/Images/nine arches.jpg",
+      "/Images/Ravana-Waterfall.jpg",
+      "/Images/jeep.png",
+      "/Images/yala-national-park-3.jpg",
+      "/Images/Galle Fort 2.jpg",
+      "/Images/turtle.png",
+      "/Images/madu river 1.jpg",
+      "/Images/benthota beach.jpg",
+      "/Images/water sports.png",
+      "/Images/diving.png"
     ]
   },
 
