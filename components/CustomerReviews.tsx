@@ -8,7 +8,7 @@ const reviewScreenshots = [
     "/Images/Reviews/review1.jpg",
     "/Images/Reviews/review2.jpg",
     "/Images/Reviews/review3.jpg",
-    "/Images/Reviews/review4.PNG",
+    "/Images/Reviews/review4.jpg",
 ];
 
 // Configuration
