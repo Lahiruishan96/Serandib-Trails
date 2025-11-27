@@ -456,16 +456,19 @@ Rock Climb | Sunset View
 🗓️ **Day 5 – Anuradhapura ➜ Sigiriya**
 Village Tour | Relax Evening
 
-**Day 6 – Sigiriya ➜ Polonnaruwa ➜ Sigiriya**
+🗓️ **Day 6 – Sigiriya ➜ Polonnaruwa ➜ Sigiriya**
 Ancient Kingdom | Cycling Tour
 
-**Day 7 – Sigiriya ➜ Dambulla ➜ Kandy**
+🗓️ **Day 7 – Sigiriya ➜ Dambulla ➜ Kandy**
 Golden Temple | Cultural Show
-**Day 8 – Kandy Sightseeing**
+
+🗓️ **Day 8 – Kandy Sightseeing**
 Temple of the Tooth | Gem Museum | Market
-**Day 9 – Kandy ➜ Nuwara Eliya**
+
+🗓️ **Day 9 – Kandy ➜ Nuwara Eliya**
 Tea Factory | Ramboda Falls
-**Day 10 – Nuwara Eliya ➜ Horton Plains ➜ Ella**
+
+🗓️ **Day 10 – Nuwara Eliya ➜ Horton Plains ➜ Ella**
 World’s End | Train Ride | Little Adam’s Peak
 
 🗓️ **Day 11 – Ella**
@@ -526,7 +529,7 @@ Wildlife, Culture, Tea Hills, Ancient Cities, Train Journeys, Waterfalls, Beache
       "/Images/nine arches.jpg",
       "/Images/zip_line.jpg",
       "/Images/whale watching.PNG",
-      "/Images/turtle.png",
+      "/Images/turtle.jpg",
       "/Images/Galle Fort 1.jpg",
       "/Images/madu river 2.jpg",
       "/Images/dolphin_watching.jpg",
