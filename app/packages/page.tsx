@@ -65,13 +65,12 @@ const packagesData = [
     hover: "hover:bg-blue-50",
     features: [
       { name: "Package Type", value: "VIP Experience" },
-      { name: "Accommodation", check: true },
       { name: "Transportation", check: true },
-      { name: "Meals", check: true },
       { name: "Activities & Tours", check: true },
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
+      { name: "Meals", check: true },
     ],
   },
   {
@@ -81,13 +80,12 @@ const packagesData = [
     hover: "hover:bg-amber-50",
     features: [
       { name: "Package Type", value: "Classic Journey" },
-      { name: "Accommodation", check: true },
       { name: "Transportation", check: true },
-      { name: "Meals", check: true },
       { name: "Activities & Tours", check: true },
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
+      { name: "Meals", check: true },
     ],
   },
   {
@@ -97,13 +95,12 @@ const packagesData = [
     hover: "hover:bg-gray-50",
     features: [
       { name: "Package Type", value: "Budget Explorer" },
-      { name: "Accommodation", check: true },
       { name: "Transportation", check: true },
-      { name: "Meals", check: false },
       { name: "Activities & Tours", check: true },
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
+      { name: "Meals", check: false },
     ],
   },
 ];
@@ -227,7 +224,13 @@ const PackagesPage: React.FC = () => {
         {/* ----------------------------- */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Tour Pricing by Vehicle Type</h2>
-          
+          <p className="text-center text-gray-500 mb-4">
+            All prices are per person and displayed in USD (United States Dollars)
+          </p>
+          <p className="text-center text-gray-500 mb-8">
+              Group = Maximum 8 Pax | Large Group = Maximum 36 Pax
+          </p>
+
           <PricingTable 
             vehicleType="car" 
             title="Intimate Journey Pricing (Perfect for Couples/Solo Travelers)" 
