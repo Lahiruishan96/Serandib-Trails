@@ -228,7 +228,7 @@ const PackagesPage: React.FC = () => {
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">Tour Pricing by Vehicle Type</h2>
           <p className="text-center text-gray-500 mb-4">
-            All prices are per person and displayed in USD (United States Dollars)5
+            All prices are per person and displayed in USD (United States Dollars)
           </p>
           <p className="text-center text-gray-500 mb-8">
               Group = Maximum 8 Pax | Large Group = Maximum 36 Pax
