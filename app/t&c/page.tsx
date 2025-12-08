@@ -21,6 +21,17 @@ const TermsAndConditionsPage: React.FC = () => {
             Welcome to Ceylon Adventures. By booking a trip, package, or accommodation service with us, you agree to be bound by the following terms and conditions. Please read them carefully.
           </p>
 
+          {/* Important Notice for All Guests */}
+          <section className="bg-yellow-100 border-l-4 border-yellow-500 p-5 rounded-md">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">
+              Important Notice for All Guests
+            </h2>
+            <p>
+              To ensure a smooth and well-coordinated experience, we kindly request all guests to provide their arrival time at the airport when making a booking.
+              Your arrival details help us arrange hotel check-in times and plan your itinerary without delays or inconvenience.
+            </p>
+          </section>
+
           {/* 1. Booking and Confirmation */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Booking and Confirmation</h2>
@@ -49,9 +60,9 @@ const TermsAndConditionsPage: React.FC = () => {
               All cancellations must be received in writing (via email). The effective date of cancellation is the date the written notification is received by Ceylon Adventures.
             </p>
             <ul className="list-disc ml-6 space-y-3">
-              <li>**45+ Days Before Travel:** Forfeiture of the non-refundable deposit only.</li>
-              <li>**30-44 Days Before Travel:** Forfeiture of 50% of the total trip cost.</li>
-              <li>**0-29 Days Before Travel:** Forfeiture of 100% of the total trip cost (no refund).</li>
+              <li><strong>45+ Days Before Travel:</strong> Forfeiture of the non-refundable deposit only.</li>
+              <li><strong>30–44 Days Before Travel:</strong> Forfeiture of 50% of the total trip cost.</li>
+              <li><strong>0–29 Days Before Travel:</strong> Forfeiture of 100% of the total trip cost (no refund).</li>
               <li>No refunds will be provided for any unused portions of the tour, including voluntary absence from activities or early departure.</li>
             </ul>
           </section>
@@ -74,17 +85,17 @@ const TermsAndConditionsPage: React.FC = () => {
               <li>We recommend and require that all clients purchase comprehensive travel insurance covering cancellation, medical emergencies, and loss of property.</li>
             </ul>
           </section>
-          
-          {/* 6. Traveler Health and Accessibility (New Section) */}
+
+          {/* 6. Traveler Health and Accessibility */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Traveler Health and Accessibility</h2>
             <ul className="list-disc ml-6 space-y-3">
-              <li>**Special Needs Disclosure:** The client must inform Ceylon Adventures at the time of booking if any person in their party has special needs, medical conditions, or requires supportive items such as a wheelchair, special seating, or medical equipment.</li>
+              <li><strong>Special Needs Disclosure:</strong> The client must inform Ceylon Adventures at the time of booking if any person in their party has special needs, medical conditions, or requires supportive items such as a wheelchair, special seating, or medical equipment.</li>
               <li>This information is essential for us to arrange appropriate accommodations and transportation to ensure comfort and safety throughout the trip. Failure to disclose this information may result in our inability to provide necessary support during the tour.</li>
             </ul>
           </section>
 
-          {/* 7. Governing Law (Number updated to 7) */}
+          {/* 7. Governing Law */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. Governing Law</h2>
             <p>
