@@ -23,7 +23,7 @@ const AirportTransfer: React.FC = () => {
           {/* Image Section */}
           <div className="relative w-full min-h-[360px] sm:min-h-[420px] md:aspect-3/4 overflow-hidden">
           <Image
-            src="/images/airport-transfer11.png"
+            src="/Images/airport-transfer11.png"
             alt="Airport to Hotel & Hotel to Airport Transfers"
             fill
             priority
