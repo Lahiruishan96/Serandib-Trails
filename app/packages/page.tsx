@@ -50,7 +50,7 @@ const tourPricingByVehicle = [
     tour: "21 Day Tour (21 days / 20 nights)",
     car: { budget: 2200, gold: 2360, premium: 2550 },
     van: { budget: 2350, gold: 2470, premium: 2630 },
-    bus: { budget: 2440, gold: 2570, premium: 2440 },
+    bus: { budget: 2440, gold: 2440, premium: 2570 },
   },
 ];
 
