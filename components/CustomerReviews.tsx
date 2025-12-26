@@ -185,10 +185,10 @@ import Image from "next/image";
 
 // REVIEW IMAGES (SEO-friendly paths)
 const reviewScreenshots = [
-  "/images/reviews/sri-lanka-tour-review-1.jpg",
-  "/images/reviews/sri-lanka-tour-review-2.jpg",
-  "/images/reviews/sri-lanka-tour-review-3.jpg",
-  "/images/reviews/sri-lanka-tour-review-4.jpg",
+  "/Images/reviews/sri-lanka-tour-review-1.jpg",
+  "/Images/reviews/sri-lanka-tour-review-2.jpg",
+  "/Images/reviews/sri-lanka-tour-review-3.jpg",
+  "/Images/reviews/sri-lanka-tour-review-4.jpg",
 ];
 
 const NUM_CLONES = 2;

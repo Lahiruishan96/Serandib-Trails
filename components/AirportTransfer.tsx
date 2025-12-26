@@ -118,7 +118,7 @@ const AirportTransfer: React.FC = () => {
           {/* Image Section */}
           <div className="relative w-full min-h-[360px] sm:min-h-[420px] md:aspect-3/4 overflow-hidden">
             <Image
-              src="/images/sri-lanka-airport-transfer.png"
+              src="/Images/sri-lanka-airport-transfer.png"
               alt="Sri Lanka airport transfer service from airport to hotel and hotel to airport"
               fill
               priority
