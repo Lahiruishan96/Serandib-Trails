@@ -163,9 +163,10 @@ const structuredData = {
   "url": "https://souloflanka.com/about",
   "logo": "https://souloflanka.com/logo.png",
   "sameAs": [
-    "https://www.facebook.com/souloflanka",
-    "https://www.instagram.com/souloflanka",
-    "https://www.linkedin.com/company/souloflanka"
+    "https://www.facebook.com/share/192bVJCkCm/",
+    "https://www.instagram.com/travelwithsouloflanka?igsh=NTl5aDZlaTcycnBt",
+    "https://x.com/travelwithsouloflanka",
+    "https://www.tiktok.com/@soul.of.lanka6?_r=1&_t=ZS-91HYaB8yjGq"
   ],
   "founders": teamMembers.map(member => ({
     "@type": "Person",
