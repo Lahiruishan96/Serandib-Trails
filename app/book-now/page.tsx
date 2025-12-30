@@ -19,7 +19,7 @@ const BookingPage: React.FC = () => {
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Tell us about your travel plans, preferences, and arrival details.
             Our team will create a <strong>custom tour plan</strong> specially for you
-            and send it directly to your email.
+            and send it directly to your email or WhatsApp.
           </p>
         </header>
 
@@ -47,25 +47,8 @@ const BookingPage: React.FC = () => {
           </div>
         </div>
 
-        {/* CTA */}
-        <div className="text-center mb-12">
-          <Link
-            href={BOOKING_FORM_URL}
-            target="_blank"
-            className="inline-block px-10 py-4 text-lg font-bold text-white bg-orange-500 
-                       rounded-full shadow-lg hover:bg-orange-600 hover:shadow-xl 
-                       transition duration-300 transform hover:scale-105"
-          >
-            Fill the Booking Form
-          </Link>
-
-          <p className="mt-4 text-sm text-gray-500">
-            Takes only 2–3 minutes to complete
-          </p>
-        </div>
-
-        {/* Optional Embedded Form */}
-        <div className="bg-white rounded-xl shadow-md overflow-hidden">
+        {/* Embedded Form */}
+        <div className="bg-white rounded-xl shadow-md overflow-hidden mb-6">
           <iframe
             src={BOOKING_FORM_URL}
             className="w-full h-[900px] border-0"
@@ -73,6 +56,24 @@ const BookingPage: React.FC = () => {
             title="Booking Form"
           />
         </div>
+
+        {/* Fallback CTA Button */}
+        <div className="text-center">
+          <p className="mb-3 text-gray-600 text-sm">
+            If the above embedded form does not work, click the button below to open it in a new tab.
+          </p>
+          <Link
+            href={BOOKING_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-10 py-4 text-lg font-bold text-white bg-orange-500 
+                       rounded-full shadow-lg hover:bg-orange-600 hover:shadow-xl 
+                       transition duration-300 transform hover:scale-105"
+          >
+            Open Booking Form
+          </Link>
+        </div>
+
       </div>
     </div>
   );
