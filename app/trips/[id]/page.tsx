@@ -285,8 +285,8 @@ export default async function TripPage({ params }: TripPageProps) {
       <div className="text-center mt-8">
         <a
           href="/packages"
-          className="inline-block px-8 py-3 text-lg font-bold text-white bg-orange-500 rounded-full shadow-lg 
-                    hover:bg-orange-600 hover:shadow-xl transition duration-300 transform hover:scale-105"
+          className="inline-block px-8 py-3 text-lg font-bold text-white bg-teal-600 rounded-full shadow-lg 
+                    hover:bg-teal-700 hover:shadow-xl transition duration-300 transform hover:scale-105"
         >
           Check Prices
         </a>
