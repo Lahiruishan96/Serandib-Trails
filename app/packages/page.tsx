@@ -344,7 +344,7 @@ import Head from "next/head";
 
 const tourPricingByVehicle = [
   {
-    tour: "One Day Tour (Max 200Km per day)",
+    tour: "One Day Tour",
     car: { budget: 130, gold: 180, premium: 250 },
     van: { budget: 160, gold: 200, premium: 300 },
     bus: { budget: 220, gold: 300, premium: 380 },
@@ -403,8 +403,8 @@ const packagesData = [
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
-      { name: "Entrance Tickets", check: true },
       { name: "Snacks (One time)", check: true },
+      { name: "Entrance Tickets", check: true },
     ],
   },
   {
@@ -419,8 +419,8 @@ const packagesData = [
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
-      { name: "Entrance Tickets", check: true },
-      { name: "Snacks (One time)", check: false },
+      { name: "Snacks (One time)", check: true },
+      { name: "Entrance Tickets", check: false },
     ],
   },
   {
@@ -435,8 +435,8 @@ const packagesData = [
       { name: "Guide Service", check: true },
       { name: "Travel Insurance", check: true },
       { name: "24/7 Support", check: true },
-      { name: "Entrance Tickets", check: false },
       { name: "Snacks (One time)", check: false },
+      { name: "Entrance Tickets", check: false },
     ],
   },
 ];
