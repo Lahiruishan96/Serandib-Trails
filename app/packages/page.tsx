@@ -658,7 +658,7 @@ const PackagesPage: React.FC = () => {
             Prices are per person in USD (United States Dollars)
           </p>
           <p className="text-center text-gray-500 mb-8">
-            Group = Maximum 8 Pax | Large Group = Maximum 36 Pax
+            Group = Maximum 6 Pax | Large Group = Maximum 36 Pax
           </p>
 
           <PricingTable vehicleType="car" title="Intimate Journey Pricing (Couples/Solo Travelers)" />
