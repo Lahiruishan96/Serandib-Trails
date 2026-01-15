@@ -14,6 +14,12 @@ export default function Home() {
   };
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {/* <Carousel /> */}
+
       <HeroVideo />
       <AirportTransfer />
       <FeaturedTrips />
