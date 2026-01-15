@@ -171,7 +171,7 @@ const Navbar: React.FC = () => {
           <Link href="/" className="flex items-center space-x-3">
             <Image
               src="/Images/logo.png"   
-              alt="SerenTrails Logo"
+              alt="Soul Of Lanka Logo"
               width={200}
               height={150}
               className="object-contain rounded-md"
@@ -203,8 +203,8 @@ const Navbar: React.FC = () => {
             {/* CTA Button */}
             <Link
               href="/book-now"
-              className="px-6 py-2 text-white bg-orange-500 rounded-full font-bold shadow-lg 
-                         hover:bg-orange-600 hover:shadow-xl transition duration-300 ease-in-out 
+              className="px-6 py-2 text-white bg-teal-600 rounded-full font-bold shadow-lg 
+                         hover:bg-teal-700 hover:shadow-xl transition duration-300 ease-in-out 
                          transform hover:scale-105"
             >
               Book a Tour
@@ -252,8 +252,8 @@ const Navbar: React.FC = () => {
           <Link
             href="/book-now"
             onClick={closeMenu}
-            className="mt-2 block w-full text-center px-4 py-2 text-white bg-orange-500 rounded-md 
-                       font-semibold hover:bg-orange-600 transition duration-300"
+            className="mt-2 block w-full text-center px-4 py-2 text-white bg-teal-600 rounded-md 
+                       font-semibold hover:bg-teal-700 transition duration-300"
           >
             Book a Tour
           </Link>

@@ -1,7 +1,7 @@
-// import Carousel from "@/components/Carousel";
 import CustomerReviews from "@/components/CustomerReviews";
 import FeaturedTrips from "@/components/FeaturedTrips";
 import HeroVideo from "@/components/HeroVideo";
+import AirportTransfer from "@/components/AirportTransfer";
 
 export default function Home() {
 
@@ -14,12 +14,8 @@ export default function Home() {
   };
   return (
     <main>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      {/* <Carousel /> */}
       <HeroVideo />
+      <AirportTransfer />
       <FeaturedTrips />
       <CustomerReviews />
     </main>
