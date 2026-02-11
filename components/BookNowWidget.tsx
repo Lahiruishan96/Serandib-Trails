@@ -13,7 +13,7 @@ const BookNowWidget: React.FC = () => {
         aria-label="Book Now"
         className="flex items-center justify-center gap-2
           px-4 py-3
-          bg-amber-600 text-white
+          bg-amber-500 text-white
           rounded-full shadow-lg
           hover:bg-teal-600
           transition-transform hover:scale-105
